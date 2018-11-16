@@ -101,10 +101,6 @@ public class FocusSurfaceView extends SurfaceView {
             case MotionEvent.ACTION_DOWN:
                 downX = event.getX();
                 downY = event.getY();
-
-
-
-                //fhdsajkjfka
                 try {
                     //判断是否支持对焦模式
                     if (mCamera != null) {
