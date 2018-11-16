@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.tiger.testproject.widget.MyCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+
+        <com.tiger.testproject.widget.DraggerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!--<com.tiger.testproject.widget.DraggerView
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:background="#ff00ff" />
+
+        <com.tiger.testproject.widget.DraggerView
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:background="#ffff00" />
+
+        <com.tiger.testproject.widget.DraggerView
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:background="#f0f0ff" />-->
+
+    </com.tiger.testproject.widget.MyCardView>
+
+    <com.tiger.testproject.widget.DraggerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
